@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "sleeppollmod",
+	"version": "${version}",
+	"name": "SleepPoll",
+	"description": "SleepPoll is a Minecraft Fabric mod that introduces a voting system for skipping the night. When a player enters a bed, a poll is created, allowing all online players to vote on whether to skip the night or keep it. Perfect for servers where players have different preferences for nighttime gameplay!",
+	"authors": [
+		"Zicob"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/Z1-co/fabric-vote-to-skip-night"
+	},
+	"license": "MIT",
+	"icon": "assets/sleeppollmod/icon.png",
+	"environment": "server",
+	"entrypoints": {
+		"main": [
+			"com.zicob.sleeppoll.SleepPoll"
+		],
+		"fabric-datagen": [
+			"com.zicob.sleeppoll.SleepPollDataGenerator"
+		]
+	},
+	"mixins": [
+		"sleeppollmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
