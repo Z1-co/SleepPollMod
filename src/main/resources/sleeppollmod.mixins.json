@@ -3,7 +3,7 @@
 	"package": "com.zicob.sleeppoll.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"SleepMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
