@@ -12,7 +12,7 @@
 		"sources": "https://github.com/Z1-co/fabric-vote-to-skip-night"
 	},
 	"license": "MIT",
-	"icon": "assets/sleeppollmod/icon.png",
+	"icon": "assets/sleeppollmod/SleepPollIcon.png",
 	"environment": "server",
 	"entrypoints": {
 		"main": [
@@ -26,7 +26,7 @@
 		"sleeppollmod.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.16.13",
+		"fabricloader": ">=0.16.0",
 		"minecraft": "~1.21.4",
 		"java": ">=21",
 		"fabric-api": "*"
